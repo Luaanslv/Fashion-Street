@@ -1,5 +1,6 @@
 body{
     min-width: 370px;
+    overflow-x: hidden;
 }
 .wrapper{
     min-height: 100vh;
