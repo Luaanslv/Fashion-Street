@@ -22,7 +22,7 @@
     <!--css-->
     <link rel="stylesheet" href="/css/style.css">
 
-    <title>Fashion Street :: Delivery address</title>
+    <title>Fashion Street :: Home Page</title>
 </head>
 
 <body>
@@ -65,54 +65,58 @@
 
         <main class="flex-fill">
             <div class="container">
-                <h1>Select the delivery address</h1>
-                <h3 class="mb-4">Click <b>continue</b> to proceed to the payment method selection</h3>
-                <div class="d-flex justify-content-evenly flex-wrap border rounded-top pt-4 px-3">
-                    <div class="mb-4 mx-2 flex-even">
-                        <input type="radio" class="btn-check" name="endereco" id="end1"
-                            autocomplete="off">
-                        <label class="btn btn-outline-dark p-4 h-100 w-100" for="end1">
-                            <h3>
-                                <b>My Home</b>
-                                <hr>
-                                <b>Street</b>:  seila das quantas, 101 <br>
-                                <b>City</b>: Itatipa/SP <br>
-                                <b>Country</b>: Brasil <br>
-                                <b>Zip code</b>: 06666666
-                            </h3>
-                        </label>
+                <h1>Select your payment method</h1>
+                <div class="container mt-5">
+                    <div class="col-12">
+                        <div class="row mt-3">
+                            <div class="col-md-6 col-sm-6 col-lg-8 method-pay">
+                                <p><strong>Sugestions methods</strong></p>
+                                <div class="mb-5 mt-5">
+                                    <h5>At the moment you have no saved cards</h5>
+                                </div>
+                                <p><strong>Other methods</strong></p>
+                                <div class="mt-5 d-flex align-items-center border">
+                                    <button style="text-decoration: none; outline: none; color: #000;" class="w-100 d-flex">
+                                        <i class="bi bi-credit-card-fill ms-5" style="font-size: 30px;margin-top: 4px;"></i>
+                                        <p class="m-3">New Credit Card</p>
+                                    </button>
+                                </div>
+
+                                <div class="mt-3 d-flex align-items-center border">
+                                    <button style="text-decoration: none; outline: none; color: #000;" class="w-100 d-flex">
+                                        <i class="bi bi-phone ms-5" style="font-size: 30px; margin-top: 4px;"></i><p class="m-3">Make Pix</p>
+                                    </button>
+                                </div>
+                                <div class="mt-3 d-flex align-items-center border">
+                                    <button style="text-decoration: none; outline: none; color: #000;" class="w-100 d-flex">
+                                        <i class="bi bi-cash ms-5" style="font-size: 30px;margin-top: 4px;"></i>
+                                        <p class="m-3">Payment slip</p>
+                                    </button>
+                                </div>
+                            </div>
+
+                            <div class="col-md-6 col-sm-6 col-lg-4 card-confirm mt-sm-5">
+                                <div class="card ms-5 mb-sm-4 " style="width: 18rem; margin-top: -40px; border: none;">
+                                    <img src="https://images.tcdn.com.br/img/img_prod/473150/tenis_nike_sb_blazer_court_branco_preto_8401_1_f6342c5968ef7c65c2e304e0485d46a3.png"
+                                        class="card-img-top" alt="item1" style="width: 250px;">
+                                    <div class="card-body">
+                                        <h5 class="card-title">Nike sb</h5>
+                                        <p class="card-text"><b>Envio:</b> Frete gratis<br>
+                                            <b>Data prevista:</b> Frete gratis<br>
+                                            <b>Quantidade:</b> 4 unit(s)<br>
+                                            <b>Tamanho:</b> Frete gratis<br>
+                                            <b>Cor:</b> Frete gratis<br>
+                                            <b>Gênero:</b> Frete gratis<br>
+                                            <b>Valor total:</b> Frete gratis<br>
+                                        </p>
+                                    </div>
+                                    <div class="card-footer border-0" style="background-color: #fff;">
+                                        <button type="button" class="btn btn-outline-dark w-100 d-block"><i class="bi bi-x-diamond me-2"></i>Adicione seu cupom</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
                     </div>
-                    <div class="mb-4 mx-2 flex-even">
-                        <input type="radio" class="btn-check" name="endereco" id="end2"
-                            autocomplete="off">
-                        <label class="btn btn-outline-dark p-4 h-100 w-100" for="end2">
-                            <h3>
-                                <b>My beach home</b>
-                                <hr>
-                                <b>Street</b>:  seila das quantas, 101 <br>
-                                <b>City</b>: Itatipa/SP <br>
-                                <b>Country</b>: Brasil <br>
-                                <b>Zip code</b>: 06666666
-                            </h3>
-                        </label>
-                    </div>
-                    <div class="mb-4 mx-2 flex-even">
-                        <input type="radio" class="btn-check" name="endereco" id="end3"
-                            autocomplete="off">
-                        <label class="btn btn-outline-dark p-4 h-100 w-100" for="end3">
-                            <h3>
-                                <b>Or add a new address</b>
-                                <hr>
-                                <h1 class="mt-5" style="font-size: 50px;">+</h1>
-                            </h3>
-                        </label>
-                    </div>
-                </div>
-                <div class="text-end mt-2 mb-3 border-top-0 rounded-bottom p-4 pb-0" >
-                    <a href="/pages/finalizarShopping.html" class="btn btn-outline-success btn-lg mt-xs-3">
-                        Back to Items
-                    </a>
-                    <a href="/pages/finalizar-pay.html" class="btn btn-dark btn-lg ms-2 mt-xs-3">Continue</a>
                 </div>
             </div>
         </main>

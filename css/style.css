@@ -12,6 +12,19 @@ p.diminuir-2l{
     overflow: hidden;
     text-overflow: ellipsis;
 }
+.flex-even{
+    flex: 1;
+    min-width: 300px;
+}
+
+@media screen and (max-width:767px){
+    .method-pay{
+        width: 100%;
+    }
+    .card-confirm{
+        margin-top: 40px;
+    }
+}
 
 @media screen and (max-width:469px){
     .mt-xs-3{
