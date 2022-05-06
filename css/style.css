@@ -16,6 +16,48 @@ p.diminuir-2l{
     flex: 1;
     min-width: 300px;
 }
+.div-input{
+    border: 1px solid #000;
+    border-radius: 10px;
+}
+.input-frete{
+    position: absolute;
+    margin-top: 30px;
+    margin-left: 10px;
+}
+.button{
+    position: relative;
+    margin-left: 5px;
+}
+.div-btn{
+    margin-bottom: 40px;
+    margin-top: -50px;
+}
+.btn-desconto{
+    outline-style: #000;
+    border-radius: 10px;
+    padding: 5px;
+}
+.card-confirm{
+    margin-top: -45px;
+    margin-bottom: 50px;
+}
+.div-confirm{
+    margin-bottom: 50px;
+}
+.div-confirm a {
+    text-decoration: none;
+    outline: none;
+    list-style: none;
+}
+.btn-confirmar{
+    text-align: center;
+    margin: auto;
+    width: 500px;
+    justify-content: center;
+    padding: 10px;
+    border-radius: 5px;
+}
 
 @media screen and (max-width:767px){
     .method-pay{
